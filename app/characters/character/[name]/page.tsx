@@ -17,7 +17,7 @@ export default async function CharacterPage({
 
   return (
     <div>
-      <h1>{character.name}</h1>
+      <h1 className="text-xl font-bold">{character.name}</h1>
       <ul>
         <li>Attaque : {character.attack}</li>
         <li>Défense : {character.defense}</li>
